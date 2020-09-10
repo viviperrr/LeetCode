@@ -15,6 +15,11 @@ namespace Search_Insert_Position
             Console.WriteLine($"Position: {GetTargetPosition(nums, 0)}");
         }
 
+        /// <summary>
+        /// Time Complexity: O(logN)
+        /// Space Complexity: O(1)
+        /// </summary>
+        /// <returns>Position</returns>
         static int GetTargetPosition(int[] nums, int target)
         {
             int low = 0;
